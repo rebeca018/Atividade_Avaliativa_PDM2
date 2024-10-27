@@ -6,7 +6,7 @@ html, .fullscreen {
     display: flex;
     height: 100%;
     margin: 0;
-    padding: 0 0 20px 0;
+    padding: 0;
     width: 100%;
 }
 
@@ -15,51 +15,58 @@ html, .fullscreen {
     justify-content: center;
 }
 
+.container {
+    padding: 20px;
+    max-width: 80%;
+    margin: auto;
+
+}
+
 table {
     text-align: center;
-    border-collapse: collapse;
     width: 100%;
-    font-family: sans-serif;
-    background: #f0f0f0;
+    border-radius: 5px;
+    border-spacing: 0;
+    background-color: antiquewhite;
+    border-collapse: separate;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-  
-td {
-   padding:5px;
-   border: 4px solid #c4d9dc;
+
+th, td{
+    padding: 12px 15px;
+    border: none;
 }
-  
+
 th {
-    border: 4px solid #c4d9dc;
+    background-color: #c4d9dc;
+    color: #394f75;
+    border: solid;
+    border-color: #394f75;
+    font-weight: bold;
 }
-  
-.coluna {
+
+td{
+    border: solid #ffa0b6;
+}
+
+.cabecalho{
+    background-color: #c4d9dc;
+    font-weight: bold;
+}
+
+
+.coluna{ 
     width: 18%;
 }
-  
-.horário {
+
+.horario {
+    background-color: #f5f5f5;
     width: 150;
-    background: #f48fa7;
 }
-  
-.cabeçalho{
-    background: #394f75;
-    color: #F9F9F9; 
-    height: 50px;
-}
-  
-.rodapé {
-    background: #917bbf;
-    color: #F9F9F9;
-    height: 50px;
-}
-  
+
 .intervalo {
-    background: #DDDDDD;
-    height: 30px;
-  }
-  
-.estilo {
-    font-family: sans-serif;
+    background-color: #d9c6ff;
 }
 
 button{
@@ -78,7 +85,7 @@ button{
 
 
 button:hover {
-    background-color: #ffa0b6;
+    background-color: #ffa9bd;
     color: #ffffff;
 }
 
