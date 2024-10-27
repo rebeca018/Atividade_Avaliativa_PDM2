@@ -1,6 +1,6 @@
 {
- "name": "Minha primeira App Progressiva",
- "short_name": "Primeira PWA",
+ "name": "Meu Horário",
+ "short_name": "Horário",
  "icons": [
     {
         "src": "images/pwa-icon-256.png",

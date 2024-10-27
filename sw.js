@@ -1,6 +1,6 @@
-let cacheName = "my-first-pwa";
-let filesToCache = ["/", "/index.html",
-                    "/css/style.css", "/js/main.js"];
+let cacheName = "my-horario-pwa";
+let filesToCache = ["/", "/index.html", "/horario.html", "horarioPe.html",
+                    "/css/style.css", "/css/styleH.css", "/css/stylePE.css","/js/main.js"];
 
 /* inicializando a service worker e fazendo o 
 download do conteúdo da aplicação */
